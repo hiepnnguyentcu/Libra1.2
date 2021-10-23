@@ -16,6 +16,7 @@ class homeVC: UIViewController{
         super.viewDidLoad()
         UpcomingMeetingsTableView.dataSource = self
         UpcomingMeetingsTableView.delegate = self
+        UpcomingMeetingsTableView.separatorStyle = .none
         let nib = UINib(nibName: K.UpcomingTableViewCellIdentifier, bundle: nil)
         UpcomingMeetingsTableView.register(nib, forCellReuseIdentifier: K.UpcomingTableViewCellIdentifier)
     }
@@ -24,18 +25,18 @@ class homeVC: UIViewController{
 
 extension homeVC: UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return 3
     }
-    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: K.UpcomingTableViewCellIdentifier) as 
-        cell?.textLabel?.text = "Meeting One"
-        return cell!
+        let cell = tableView.dequeueReusableCell(withIdentifier: K.UpcomingTableViewCellIdentifier) as! UpcomingTableViewCell
+        cell.dateLabel.text = "24th OCT"
+        return cell
     }
     
     
 }
 
 extension homeVC: UITableViewDelegate{
+    
     
 }

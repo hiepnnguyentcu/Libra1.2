@@ -34,8 +34,13 @@ class UpcomingTableViewCell: UITableViewCell {
     }
     
     func setupUI(){
-        backgroundYellowView.layer.cornerRadius = 15.0
-        self.layer.cornerRadius = 15.0
+        backgroundYellowView.layer.cornerRadius = 10.0
+        self.layer.cornerRadius = 5.0
+        self.layer.masksToBounds = true
+        self.layer.borderWidth = 1
+        self.layer.shadowOffset = CGSize(width: -1, height: 1)
+        self.layer.borderColor = UIColor(named: "mylightgrey")?.cgColor
     }
+    
     
 }
