@@ -18,6 +18,7 @@
 		72BB216E27249A1E00778A1A /* homeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BB216D27249A1E00778A1A /* homeVC.swift */; };
 		72BB217127249DE600778A1A /* UpcomingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BB216F27249DE600778A1A /* UpcomingTableViewCell.swift */; };
 		72BB217227249DE600778A1A /* UpcomingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72BB217027249DE600778A1A /* UpcomingTableViewCell.xib */; };
+		D6557B6E2724FE7B00EB90FE /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6557B6D2724FE7B00EB90FE /* SurveyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		72BB216D27249A1E00778A1A /* homeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeVC.swift; sourceTree = "<group>"; };
 		72BB216F27249DE600778A1A /* UpcomingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingTableViewCell.swift; sourceTree = "<group>"; };
 		72BB217027249DE600778A1A /* UpcomingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpcomingTableViewCell.xib; sourceTree = "<group>"; };
+		D6557B6D2724FE7B00EB90FE /* SurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				72BB21562724941F00778A1A /* ViewController.swift */,
 				72BB2168272496AA00778A1A /* InitialCheckupVC.swift */,
 				72BB216D27249A1E00778A1A /* homeVC.swift */,
+				D6557B6D2724FE7B00EB90FE /* SurveyViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			files = (
 				72BB2169272496AA00778A1A /* InitialCheckupVC.swift in Sources */,
 				72BB216E27249A1E00778A1A /* homeVC.swift in Sources */,
+				D6557B6E2724FE7B00EB90FE /* SurveyViewController.swift in Sources */,
 				72BB21572724941F00778A1A /* ViewController.swift in Sources */,
 				72BB217127249DE600778A1A /* UpcomingTableViewCell.swift in Sources */,
 				72BB21672724966C00778A1A /* K.swift in Sources */,
