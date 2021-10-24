@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72AAF98527252E6A00A06C33 /* therapy_Vc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AAF98427252E6A00A06C33 /* therapy_Vc.swift */; };
 		72BB21532724941F00778A1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BB21522724941F00778A1A /* AppDelegate.swift */; };
 		72BB21552724941F00778A1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BB21542724941F00778A1A /* SceneDelegate.swift */; };
 		72BB21572724941F00778A1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BB21562724941F00778A1A /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72AAF98427252E6A00A06C33 /* therapy_Vc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = therapy_Vc.swift; sourceTree = "<group>"; };
 		72BB214F2724941F00778A1A /* LibraFinalVersion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibraFinalVersion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72BB21522724941F00778A1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72BB21542724941F00778A1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				72BB2168272496AA00778A1A /* InitialCheckupVC.swift */,
 				72BB216D27249A1E00778A1A /* homeVC.swift */,
 				D6557B6D2724FE7B00EB90FE /* SurveyViewController.swift */,
+				72AAF98427252E6A00A06C33 /* therapy_Vc.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				72BB21532724941F00778A1A /* AppDelegate.swift in Sources */,
 				72BB21552724941F00778A1A /* SceneDelegate.swift in Sources */,
 				D6557B72272500CF00EB90FE /* surveyQuestionData.swift in Sources */,
+				72AAF98527252E6A00A06C33 /* therapy_Vc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
