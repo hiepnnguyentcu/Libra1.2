@@ -7,6 +7,8 @@
 
 import Foundation
 struct surveyQuestionData {
+    
+    //Vivaan
     var questionNumber = 0
 
     let quiz = [
