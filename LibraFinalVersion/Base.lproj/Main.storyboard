@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Apk-7X-AP1">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
@@ -162,10 +162,10 @@
             </objects>
             <point key="canvasLocation" x="1067" y="621"/>
         </scene>
-        <!--View Controller-->
+        <!--Survey View Controller-->
         <scene sceneID="RgF-Bf-IqU">
             <objects>
-                <viewController id="Apk-7X-AP1" customClass="ViewController" customModule="LibraFinalVersion" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Apk-7X-AP1" customClass="SurveyViewController" customModule="LibraFinalVersion" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="u9g-Br-2I6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -199,6 +199,9 @@
                                         <state key="normal" title="Not at all" backgroundImage="Rectangle">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="answerPressed:" destination="Apk-7X-AP1" eventType="touchUpInside" id="tkG-9n-tFY"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DjD-E2-Zie">
                                         <rect key="frame" x="0.0" y="558" width="374" height="80"/>
@@ -210,6 +213,9 @@
                                         <state key="normal" title="Several days" backgroundImage="Rectangle">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="answerPressed:" destination="Apk-7X-AP1" eventType="touchUpInside" id="9ru-zT-Gsb"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vnz-yr-cpg">
                                         <rect key="frame" x="0.0" y="648" width="374" height="80"/>
@@ -221,6 +227,9 @@
                                         <state key="normal" title="More than half of the days" backgroundImage="Rectangle">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="answerPressed:" destination="Apk-7X-AP1" eventType="touchUpInside" id="Yhg-4A-dDB"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CgD-ph-VRn">
                                         <rect key="frame" x="0.0" y="738" width="374" height="80"/>
@@ -232,6 +241,9 @@
                                         <state key="normal" title="Nearly every day" backgroundImage="Rectangle">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="answerPressed:" destination="Apk-7X-AP1" eventType="touchUpInside" id="06y-vx-Z86"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -245,6 +257,14 @@
                             <constraint firstItem="5lb-Z1-YCx" firstAttribute="bottom" secondItem="MCj-AB-kLU" secondAttribute="bottom" id="vOn-mC-dQF"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="moreThanHalfButton" destination="Vnz-yr-cpg" id="sia-L3-aY6"/>
+                        <outlet property="nearlyEveryDayButton" destination="CgD-ph-VRn" id="ZAN-An-dx5"/>
+                        <outlet property="notAtAllButton" destination="kFS-gl-s3y" id="msC-uH-HvT"/>
+                        <outlet property="progressBar" destination="Saf-Bj-Z7o" id="4hP-Ow-E49"/>
+                        <outlet property="questionLabel" destination="fam-7A-kxv" id="UJt-8m-Gri"/>
+                        <outlet property="severalDaysButton" destination="DjD-E2-Zie" id="lGx-co-8tc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iiR-Kt-xwb" sceneMemberID="firstResponder"/>
             </objects>

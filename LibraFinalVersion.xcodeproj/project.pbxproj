@@ -19,6 +19,8 @@
 		72BB217127249DE600778A1A /* UpcomingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BB216F27249DE600778A1A /* UpcomingTableViewCell.swift */; };
 		72BB217227249DE600778A1A /* UpcomingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72BB217027249DE600778A1A /* UpcomingTableViewCell.xib */; };
 		D6557B6E2724FE7B00EB90FE /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6557B6D2724FE7B00EB90FE /* SurveyViewController.swift */; };
+		D6557B702725008C00EB90FE /* surveyQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6557B6F2725008C00EB90FE /* surveyQuestion.swift */; };
+		D6557B72272500CF00EB90FE /* surveyQuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6557B71272500CF00EB90FE /* surveyQuestionData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		72BB216F27249DE600778A1A /* UpcomingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingTableViewCell.swift; sourceTree = "<group>"; };
 		72BB217027249DE600778A1A /* UpcomingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpcomingTableViewCell.xib; sourceTree = "<group>"; };
 		D6557B6D2724FE7B00EB90FE /* SurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
+		D6557B6F2725008C00EB90FE /* surveyQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = surveyQuestion.swift; path = LibraFinalVersion/Controller/surveyQuestion.swift; sourceTree = SOURCE_ROOT; };
+		D6557B71272500CF00EB90FE /* surveyQuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = surveyQuestionData.swift; path = LibraFinalVersion/Controller/surveyQuestionData.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 		72BB216C2724981C00778A1A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D6557B6F2725008C00EB90FE /* surveyQuestion.swift */,
+				D6557B71272500CF00EB90FE /* surveyQuestionData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -185,10 +191,12 @@
 				72BB216E27249A1E00778A1A /* homeVC.swift in Sources */,
 				D6557B6E2724FE7B00EB90FE /* SurveyViewController.swift in Sources */,
 				72BB21572724941F00778A1A /* ViewController.swift in Sources */,
+				D6557B702725008C00EB90FE /* surveyQuestion.swift in Sources */,
 				72BB217127249DE600778A1A /* UpcomingTableViewCell.swift in Sources */,
 				72BB21672724966C00778A1A /* K.swift in Sources */,
 				72BB21532724941F00778A1A /* AppDelegate.swift in Sources */,
 				72BB21552724941F00778A1A /* SceneDelegate.swift in Sources */,
+				D6557B72272500CF00EB90FE /* surveyQuestionData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
